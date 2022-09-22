@@ -7,16 +7,16 @@ you can use the contents available on my repositories and feel free to suggest m
 these are the links to my other repositories where i put contents related to the repositories name.
 | DEVOPS REPOSITORIES | description |
 | - | - |
-| [LINUX](https://amirsalehag.github.io/devops) | contents about Linux OS |
-| [PROGRAMMING](https://amirsalehag.github.io/programming) | contents about any programming language  |
-| [WEB SERVERS](https://amirsalehag.github.io/web_servers) | contents about any web server |
-| [DATABASE SERVERS](https://amirsalehag.github.io/database_servers) | contents about databases |
-| [GIT / GITHUB](https://amirsalehag.github.io/git) | contents about git and github |
-| [CONFIGURATION MANAGEMENT](https://amirsalehag.github.io/config_management) | contents about infrastructure as code |
-| [DOCKER CONTAINERS](https://amirsalehag.github.io/docker_container) | contents about docker |
-| [KUBERNETES](https://amirsalehag.github.io/kubernetes) | contents about kubernetes |
-| [CI/CD PIPELINES](https://amirsalehag.github.io/cicd_pipelines) | contents about ci/cd and pipelines |
-| [MONITORING](https://amirsalehag.github.io/monitoring) | contents about monitoring |
-| [CLOUD](https://amirsalehag.github.io/cloud) | contents about cloud and cloud providers |
+| [LINUX](https://github.com/amirsalehag/linux) | contents about Linux OS |
+| [PROGRAMMING](https://github.com/amirsalehag/programming) | contents about any programming language  |
+| [WEB SERVERS](https://github.com/amirsalehag/web_servers) | contents about any web server |
+| [DATABASE SERVERS](https://github.com/amirsalehag/database_servers) | contents about databases |
+| [GIT / GITHUB](https://github.com/amirsalehag/git) | contents about git and github |
+| [CONFIGURATION MANAGEMENT](https://github.com/amirsalehag/config_management) | contents about infrastructure as code |
+| [DOCKER CONTAINERS](https://github.com/amirsalehag/docker_container) | contents about docker |
+| [KUBERNETES](https://github.com/amirsalehag/kubernetes) | contents about kubernetes |
+| [CI/CD PIPELINES](https://github.com/amirsalehag/cicd_pipelines) | contents about ci/cd and pipelines |
+| [MONITORING](https://github.com/amirsalehag/monitoring) | contents about monitoring |
+| [CLOUD](https://github.com/amirsalehag/cloud) | contents about cloud and cloud providers |
 #
 hope its helpful.
