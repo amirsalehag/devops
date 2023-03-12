@@ -87,4 +87,4 @@ networks:
 ---
 * Remember that if we recreate the service again.. because minio's directory (.minio.sys) is full of the previous config contents, we need to stop minio servers, delete the directory and then start it again.  
 
---
+---
