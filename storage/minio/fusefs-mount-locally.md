@@ -13,3 +13,10 @@ echo "access_key:secret_key" > /etc/s3cred
 s3fs <bucket> /<mount path> -o passwd_file=/etc/s3cred,use_path_request_style,url=http://minio-server:9000
 ```
 ( check this [link](https://github.com/nitisht/cookbook/blob/master/docs/s3fs-fuse-with-minio.md) for more info.)  
+
+---
+* Here is the fstab config for permenancy:
+```
+<bucket name> /<mount path> fuse.s3fs _netdev,allow_other,passwd_file=/etc/s3cred,use_path_request_style,url=http://minio-server:9000/ 0 0
+```
+---
