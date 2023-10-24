@@ -1,0 +1,157 @@
+/* Reset Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* -------------------------------------------------- */
+
+/* Variables */
+:root {
+  --primary: #02D35F;
+  --secondary: #fff;
+  --background-color: #0D2C40;
+}
+/* -------------------------------------------------- */
+
+/* Fonts */
+@font-face {
+  font-family: 'fira-code';
+  src: url(./fonts/FiraCode-Light.ttf);
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: 'fira-code';
+  src: url(./fonts/FiraCode-Regular.ttf);
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'fira-code';
+  src: url(./fonts/FiraCode-Medium.ttf);
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: 'fira-code';
+  src: url(./fonts/FiraCode-SemiBold.ttf);
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: 'fira-code';
+  src: url(./fonts/FiraCode-Bold.ttf);
+  font-weight: 700;
+}
+/* -------------------------------------------------- */
+
+/* Global Styles */
+body {
+  font-family: 'fira-code';
+  background-color: var(--background-color);
+  color: var(--primary);
+}
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* -------------------------------------------------- */
+
+/* Header Styles */
+header {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  margin-top: 1rem;
+}
+
+.titles {
+  margin-right: auto;
+  margin-bottom: 1rem;
+}
+
+.job-title {
+  color: var(--secondary);
+}
+
+.contact {
+  margin-left: 1rem;
+}
+
+.contact a {
+  text-decoration: none;
+  color: var(--secondary);
+}
+/* -------------------------------------------------- */
+
+/* Summary Styles */
+.summary {
+  margin-top: 2rem;
+}
+
+.summary h3 {
+  margin-bottom: .5rem;
+}
+
+.summary p {
+  color: var(--secondary);
+}
+/* -------------------------------------------------- */
+
+/* Skills Styles */
+.skills {
+  margin-top: 2rem;
+}
+
+.skills h3 {
+  margin-bottom: .5rem;
+}
+
+.skill {
+  color: var(--secondary);
+}
+
+.skill:not(:last-child) {
+  margin-bottom: .5rem;
+}
+
+.skill ul {
+  display: flex;
+  list-style: none;
+}
+
+.skill ul li {
+  margin-right: 1rem;
+}
+
+.skill ul li:not(:last-child)::after {
+  content: "|";
+  margin-left: 1rem;
+}
+/* -------------------------------------------------- */
+
+/* Experiences Styles */
+.experiences {
+  margin-top: 2rem;
+}
+
+.experiences h3 {
+  margin-bottom: .5rem;
+}
+
+.experiences ul {
+  list-style: none;
+}
+
+.experience {
+  color: var(--secondary);
+}
+
+.experience:not(:last-child) {
+  margin-bottom: .5rem;
+}
+/* -------------------------------------------------- */
