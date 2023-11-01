@@ -6,7 +6,7 @@
 AWS_ENDPOINT_URL=http://<minio url>
 AWS_ACCESS_KEY_ID=<minio access-key>
 AWS_SECRET_ACCESS_KEY=<minio secret-key>
-aws s3 ls <bucket name>/
+aws --endpoint-url $AWS_ENDPOINT_URL s3 ls <bucket name>/
 ```
 ## How to list the latest modified object, bucket or a prefix
 ```bash
